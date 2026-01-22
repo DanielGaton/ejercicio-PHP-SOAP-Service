@@ -1,0 +1,80 @@
+body {
+    background: linear-gradient(135deg, #d2b48c, #f5deb3);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Títulos */
+
+h1 {
+    text-align: center;
+    color: #4b2e14;
+    margin-bottom: 30px;
+}
+h2 {
+    margin-top: 40px;
+    color: #4b2e14;
+    border-left: 5px solid #8b5a2b;
+    padding-left: 10px;
+}
+
+/* Tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0 30px 0;
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Cabecera */
+th {
+    background-color: #8b5a2b;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 13px;
+}
+
+/* Celdas */
+th, td {
+    padding: 10px 12px;
+    text-align: left;
+}
+
+/* Filas */
+tr {
+    transition: background-color 0.2s ease;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f6f2;
+}
+
+tr:hover {
+    background-color: #f1e0c5;
+}
+
+/* Caption */
+caption {
+    caption-side: top;
+    font-weight: bold;
+    color: #4b2e14;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+input[type="button"], button {
+    background-color: #8b5a2b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}

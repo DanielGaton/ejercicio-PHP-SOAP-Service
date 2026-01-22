@@ -20,12 +20,13 @@
             switch ($_POST['valor']) {
                 case 'sinWSDL':
                     header('Location: public/cliente.php');
-
+                    break;
                 case 'conWSDL':
                     header('Location: public/clienteW.php');
-
+                    break;
                 case 'conWSDLyClases':
                     header('Location: public/clienteW2.php');
+                    break;
 
                 case 'generarWSDL':
                     header('Location: public/generarWsdl.php');

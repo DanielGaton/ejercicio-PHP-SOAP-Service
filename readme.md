@@ -112,8 +112,3 @@ Daniel Gatón
 Licencia
 
 MIT License
-
-
-
-## Estructura del proyecto
-

@@ -71,7 +71,7 @@ tarea6/
 
 1. Clonar el repositorio:
 
-git clone https://github.com/tuusuario/tienda-soap-php.git
+git clone https://github.com/DanielGaton/ejercicio-PHP-SOAP-Service.git
 cd tienda-soap-php
 
 2. Configurar WAMP/XAMPP y crear la base de datos tarea6 en MySQL.
